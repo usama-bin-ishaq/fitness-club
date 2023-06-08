@@ -1,0 +1,205 @@
+body {
+    background-image: url(/assest/jym1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logo {
+    /* border: 2px solid yellow; */
+    display: inline-block;
+    /* margin: 18px 34px; */
+    position: absolute;
+    left: 30px;
+    top: 10px
+}
+
+.logo img {
+    width: 73px;
+    height: 49px;
+}
+
+.mid {
+    /* border: 2px solid red; */
+    display: block;
+    width: 44%;
+    margin-top: 18px;
+    margin: 18px auto;
+}
+
+.right {
+    /* border: 2px solid black; */
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 18px;
+}
+
+.nave {
+    display: inline-block;
+}
+
+.nave li {
+    color: white;
+    display: inline-block;
+}
+
+.nave li a {
+    color: rgb(10, 1, 1);
+    padding: 15px 12px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nave li a:hover,
+.nave li a.active {
+    text-decoration: underline;
+    color: rgb(106, 104, 105);
+}
+
+.logo div {
+    text-align: center;
+
+
+}
+
+.btn {
+    margin: 2px;
+    padding: 6px 23px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn:hover {
+    background: rgba(110, 76, 155, 0.383);
+    text-decoration: underline cornsilk ;
+    /* color: #fff; */
+
+}
+
+header {
+    border-bottom: 2px solid #161414
+}
+
+.form {
+    max-width: 300px;
+    height: 65vh;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.14)50%, rgba(0, 0, 0, 0.14)50%);
+    position: absolute;
+    top: 155px;
+    left: 30px;
+    transform: translate(0%, -5%);
+    border-radius: 10px;
+    padding: 25px;
+
+}
+
+.form h2 {
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ede9e6;
+    font-size: 22px;
+    background-color: #823dbb;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input {
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1.5px solid #000000;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #f5efe9;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.form input:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: #fff;
+    font-family: Arial;
+}
+
+.btna {
+    width: 240px;
+    height: 40px;
+    background: #1c1b1a;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+
+.btnn:hover {
+    background: #fff;
+    color: #ff7200;
+}
+
+.btnn a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.form .link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.form .link a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.form .link a:hover {
+    color: #000000;
+    text-decoration: underline;
+
+}
+
+.log {
+    /* margin: 5px 5px; */
+    text-align: center;
+    color: #fff;
+}
+
+.text {
+    margin: -10px 0px 0px;
+
+    text-align: center;
+}
+
+.icons a {
+    text-decoration: none;
+    color: rgb(12, 10, 10);
+}
+
+.icons ion-icon {
+    color: rgb(31, 36, 37);
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+
+.icons ion-icon:hover {
+    color: #757270;
+}
